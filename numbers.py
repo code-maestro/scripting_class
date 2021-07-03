@@ -1,6 +1,8 @@
 #!/usr/bin/python
 """Accepts a number from a form."""
 
+# vs
+
 import cgi
 form = cgi.FieldStorage()
 print("Content-Type: text/plain\n")
